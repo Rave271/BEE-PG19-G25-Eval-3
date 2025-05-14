@@ -6,7 +6,7 @@ const app = express();
 const port = 2727;
 
 // MongoDB connection
-const mongoURI = "mongodb+srv://samarthkapoor:madhur77@attendancedatabase.dphjcij.mongodb.net/crud"; // Change this if using Atlas
+const mongoURI = "REDACTED"; // Change this if using Atlas
 
 mongoose.connect(mongoURI, {
     useNewUrlParser: true,
